@@ -1,0 +1,29 @@
+#parent{
+    width:80vw;
+    border: 2px solid black;
+    height:80vh;
+    display:flex;
+}
+
+*{
+    justify-items: center;
+}
+
+.box{
+    width:50vw;
+    border:2px solid black;
+    height:50vh;
+    margin:1%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    border-radius: 15px;
+
+}
+
+img{
+    width:50%;
+    height: 50%;
+}
