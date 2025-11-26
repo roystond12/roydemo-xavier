@@ -1,4 +1,4 @@
-#parent{
+nav{
     width:80vw;
     border: 2px solid black;
     height:80vh;
@@ -31,4 +31,9 @@ img{
 
 img:hover{
     transform: scale(120%);
+}
+
+main{
+    height:50vh;
+    
 }

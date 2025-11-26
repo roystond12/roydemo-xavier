@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Royston • Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<style>
+    body {
+        font-family: "Poppins", sans-serif;
+        background: #eef1f5;
+        color: #1e1e1e;
+        margin: 0;
+    }
+    header {
+        background: #4c4646;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    header img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: 10px;
+        border: 3px solid #f04c4c;
+    }
+    nav {
+        background: #4cc9f0;
+        text-align: center;
+        padding: 8px 0;
+    }
+    nav a {
+        color: #3f3535;
+        margin: 0 10px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    nav a:hover{
+        color:black;
+    }
+    .container {
+        width: 90%;
+        max-width: 900px;
+        margin: 20px auto;
+    }
+    section {
+        background: white;
+        margin: 18px 0;
+        padding: 18px;
+        border-radius: 6px;
+    }
+    h2 {
+        color: #0077b6;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .skills-list {
+        display: flex;
+        gap: 40px;
+    }
+    ul { padding-left: 18px; }
+    footer {
+        text-align: center;
+        background: #1e1e1e;
+        color: white;
+        padding: 14px 0;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .icon {
+        margin-right: 5px;
+        color: #0077b6;
+    }
+    #Mcontact{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .picture img{
+        opacity: 0.5    ;
+        filter: hue-rotate(170deg);
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Royston Dsouza</h1>
+    <p>Computer Engineering Student</p>
+    <img src="pics/luffy1.png" alt="Royston Photo">
+</header>
+
+<nav>
+    <a href="#summary"><i class="ri-user-line icon"></i>Summary</a>
+    <a href="#about"><i class="ri-information-line icon"></i>About</a>
+    <a href="#skills"><i class="ri-code-line icon"></i>Skills</a>
+    <a href="#projects"><i class="ri-folder-line icon"></i>Projects</a>
+    <a href="#contact"><i class="ri-mail-line icon"></i>Contact</a>
+</nav>
+
+<div class="container">
+
+<section id="summary">
+    <h2><i class="ri-user-star-line icon"></i>Summary</h2>
+    <p>
+        Enthusiastic Computer Engineering student with interest in AI, security and building practical
+        solutions through technology. I always try to turn ideas into real working systems.
+    </p>
+</section>
+
+<section id="about">
+    <h2><i class="ri-user-3-line icon"></i>About Me</h2>
+    <p>
+        I enjoy learning by experimenting, breaking systems and fixing them again.
+        My focus areas include AI/ML, ethical hacking, and full-stack development.
+    </p>
+</section>
+
+<section id="skills">
+    <h2><i class="ri-flashlight-line icon"></i>Skills</h2>
+
+    <div class="skills-list">
+        <div>
+            <strong>Technical Skills</strong>
+            <ul>
+                <li>Python</li>
+                <li>C & C++</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>HTML & CSS</li>
+                <li>SQL Basics</li>
+            </ul>
+        </div>
+
+        <div>
+            <strong>AI & Data Skills</strong>
+            <ul>
+                <li>NumPy</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+                <li>Scikit-learn</li>
+                <li>NLP Basics</li>
+                <li>Model Evaluation</li>
+            </ul>
+        </div>
+
+        <div>
+            <strong>Security & Tools</strong>
+            <ul>
+                <li>Kali Linux</li>
+                <li>Burp Suite</li>
+                <li>Wireshark</li>
+                <li>Git & GitHub</li>
+                <li>Linux Basics</li>
+                <li>Postman</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<section id="projects">
+    <h2><i class="ri-tools-line icon"></i>Projects</h2>
+
+    <p><strong>Medical Triage System</strong><br>
+    Python + Flask system that classifies disease risk categories using trained ML models.<br>
+    Impact: Supports quicker decision-making by giving primary guidance based on symptoms.
+    </p>
+
+    <p><strong>Parkinson Gait Analysis System</strong><br>
+    Backend built with FastAPI that detects gait features from movement data and predicts Parkinson’s risk indicators.<br>
+    Impact: Helps early awareness by highlighting mobility changes that are easy to miss.
+    </p>
+
+    <p><strong>Azure Docs Automation – Data Extraction System</strong><br>
+    Automates converting Word documents into structured Markdown using Azure serverless functions.<br>
+    Impact: Saves manual formatting time and keeps documentation consistent.
+    </p>
+
+    <p><strong>Student Dashboard System</strong><br>
+    Beginner full-stack web project with login system and a basic dashboard for students to view data.<br>
+    Impact: Built to understand authentication, CRUD operations, and front-end integration.
+    </p>
+</section>
+
+
+<section id="Mcontact">
+    <div class = "contact end">
+    <h2><i class="ri-phone-line icon"></i>Contact</h2>
+    <p>Email: roystond148@gmail.com</p>
+    <p>GitHub: github.com/roystond12</p>
+    <p>Phone Number : 8591789708</p>
+    </div>
+    <div class = "picture end">
+        <img src="pics/image.png" alt="" width = 200>
+    </div>
+</section>
+
+</div>
+
+<footer>
+    Portfolio by Royston Dsouza
+</footer>
+
+</body>
+</html>
