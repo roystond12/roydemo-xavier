@@ -26,4 +26,9 @@
 img{
     width:50%;
     height: 50%;
+    transition: 0.5s;
+}
+
+img:hover{
+    transform: scale(120%);
 }
