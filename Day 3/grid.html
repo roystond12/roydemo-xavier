@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+
+        .grid-container{
+            display:grid;
+            grid-template-columns: 1fr 3fr;
+        }
+        .header{
+            background-color: aqua;
+            grid-column-start: 1;
+            grid-column-end:3;
+        }
+        .left{
+            background-color: beige;
+            height:90vh;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .main{
+            background-color: blue;
+            height:90vh;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+        .footer{
+            background-color: blueviolet;
+            height:10vh;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        nav{
+            background-color: aquamarine;
+            text-align: right;
+        }
+        ul{
+            list-style: none;
+            padding:5%;
+        }
+        a{
+            text-decoration: none;
+            font-size: 150%;
+            font-weight: bold;
+        }
+        li{
+            display: inline;
+            padding:5%;
+        }
+        a:hover{
+            color:black;
+            text-shadow: 10px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header">
+            <h1> Welcome to </h1>
+        </div>
+        <div class="left">
+            i am left section
+        </div>
+        <div class="main">
+            i am a main section
+        </div>
+        <div class="footer">
+            i am a footer section
+        </div>
+        <div class="right">
+            i am a right section
+        </div>
+    </div>
+</body>
+</html>
